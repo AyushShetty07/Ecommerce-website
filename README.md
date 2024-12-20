@@ -22,10 +22,6 @@ This project is a basic e-commerce website using HTML, CSS, JavaScript for the f
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Root</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="project-root">

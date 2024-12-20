@@ -19,7 +19,21 @@ This project is a basic e-commerce website using HTML, CSS, JavaScript for the f
 ---
 
 ## File Structure
-|-- index.html // Homepage displaying the product catalog |-- styles.css // CSS for styling the frontend |-- scripts.js // JavaScript for frontend interactivity |-- login.php // Login page |-- register.php // Registration page |-- db_config.php // Database connection file |-- admin/ // (Optional) Admin functionality |-- add_product.php // Add product page for admin |-- edit_product.php // Edit product page for admin |-- delete_product.php // Delete product page for admin
+Project Root
+├── index.html           # Homepage displaying the product catalog
+├── styles.css           # CSS for styling the frontend
+├── scripts.js           # JavaScript for frontend interactivity
+├── login.php            # Login page for user authentication
+├── register.php         # Registration page for new users
+├── db_config.php        # Database connection configuration file
+├── admin/               # (Optional) Admin functionality folder
+│   ├── add_product.php  # Page to add products
+│   ├── edit_product.php # Page to edit existing products
+│   ├── delete_product.php # Page to delete products
+└── assets/              # Directory for images, icons, or other media
+    ├── images/          # Product images or site graphics
+    └── icons/           # Icons for UI design
+
 ---
 
 ## Future Enhancements

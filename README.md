@@ -19,20 +19,43 @@ This project is a basic e-commerce website using HTML, CSS, JavaScript for the f
 ---
 
 ## File Structure
-Project Root
-├── index.html           # Homepage displaying the product catalog
-├── styles.css           # CSS for styling the frontend
-├── scripts.js           # JavaScript for frontend interactivity
-├── login.php            # Login page for user authentication
-├── register.php         # Registration page for new users
-├── db_config.php        # Database connection configuration file
-├── admin/               # (Optional) Admin functionality folder
-│   ├── add_product.php  # Page to add products
-│   ├── edit_product.php # Page to edit existing products
-│   ├── delete_product.php # Page to delete products
-└── assets/              # Directory for images, icons, or other media
-    ├── images/          # Product images or site graphics
-    └── icons/           # Icons for UI design
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Root</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="project-root">
+        <h1>Project Root</h1>
+        <ul>
+            <li><a href="index.html">index.html</a> - Homepage displaying the product catalog</li>
+            <li><a href="styles.css">styles.css</a> - CSS for styling the frontend</li>
+            <li><a href="scripts.js">scripts.js</a> - JavaScript for frontend interactivity</li>
+            <li><a href="login.php">login.php</a> - Login page for user authentication</li>
+            <li><a href="register.php">register.php</a> - Registration page for new users</li>
+            <li><a href="db_config.php">db_config.php</a> - Database connection configuration file</li>
+            <li>
+                <a href="#">admin/</a> - (Optional) Admin functionality folder
+                <ul>
+                    <li><a href="admin/add_product.php">add_product.php</a> - Page to add products</li>
+                    <li><a href="admin/edit_product.php">edit_product.php</a> - Page to edit existing products</li>
+                    <li><a href="admin/delete_product.php">delete_product.php</a> - Page to delete products</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">assets/</a> - Directory for images, icons, or other media
+                <ul>
+                    <li><a href="assets/images/">images/</a> - Product images or site graphics</li>
+                    <li><a href="assets/icons/">icons/</a> - Icons for UI design</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
 
 ---
 
@@ -50,5 +73,3 @@ Project Root
 
 ---
 
-## License
-This project is open-source under the MIT License.

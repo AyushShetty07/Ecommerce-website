@@ -28,8 +28,8 @@ This project is a basic e-commerce website using HTML, CSS, JavaScript for the f
         <h1>Project Root</h1>
         <ul>
             <li><a href="index.html">index.html</a> - Homepage displaying the product catalog</li>
-            <li><a href="styles.css">styles.css</a> - CSS for styling the frontend</li>
-            <li><a href="scripts.js">scripts.js</a> - JavaScript for frontend interactivity</li>
+            <li><a href="style.css">style.css</a> - CSS for styling the frontend</li>
+            <li><a href="app.js">app.js</a> - JavaScript for frontend interactivity</li>
             <li><a href="login.html">login.html</a> - Login page for user authentication</li>
             <li><a href="db_config.php">db_config.php</a> - Database connection configuration file</li>
             <li>

@@ -44,8 +44,7 @@ This project is a basic e-commerce website using HTML, CSS, JavaScript for the f
                 <a href="#">assets/</a> - Directory for images, icons, or other media
                 <ul>
                     <li><a href="assets/images/">images/</a> - Product images or site graphics</li>
-                    <li><a href="assets/icons/">icons/</a> - Icons for UI design</li>
-                </ul>
+                       </ul>
             </li>
         </ul>
     </div>
